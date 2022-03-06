@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: 'Ubuntu Mono';
+}
+
+h1{
+    color:aqua;
+    font-size: 89px;
+}
+h2{
+    color:aqua;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 55px;
+}
+h3{
+    color:aqua;
+    text-align: center;
+    font-size: 34px;
+}
+h4{
+    color:aqua;
+    text-align: right;
+    font-size: 21px;
+}
+h5{
+    color:aqua;
+    text-align: center;
+    font-size: 13px;
+}
+h6{
+    color:aqua;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 8px;
+}
+p{
+    color:aqua;
+    text-align: center;
+    font-size: 5px;
+}
+.p1{
+    color:aqua;
+    text-align: right;
+    font-size: 3px;
+}
