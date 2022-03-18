@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            width: 100vw;
+            height: 100vh;
+            margin-bottom: 10px;
+            background-color: azure;
+            position: relative;
+        }
+        
+        .blur .box {
+            animation-name: myanimation;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        
+        .box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        
+        @keyframes myanimation {
+            from {
+                transform: translateX(0) rotate(0deg);
+                background-color: aqua;
+            }
+            to {
+                transform: translateX(90vw) rotate(180deg);
+                background-color: rgb(68, 0, 255);
+            }
+        }
+    </style>
+</head>
+​
+
+<body>
+    <section>
+        <div class="box">
+            ​
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            ​
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            ​
+        </div>
+    </section>
+    <script>
+        // Element auswählen, das beobachtet werden soll, es können auch mehrere sein
+        // bei mehreren querySelectorAll benutzen!
+        ​
+        document.querySelectorAll('section').forEach((i) => {
+            if (i) {
+                const observer = new IntersectionObserver((entries) => {
+                    handleIntersect(entries, observer, i)
+                }, {
+                    root: null,
+                    rootMargin: "0px",
+                    threshold: [0, 0.25, 0.5, 0.75, 1]
+                });
+                observer.observe(i);
+            }
+        })​
+        function handleIntersect(entries, observer) { //es ist ein array von entries, auch wenn bloss ein target beobachtet wird
+            entries.map((entry) => {
+                if (entry.isIntersecting) {
+                    if (entry.intersectionRatio >= 0.25) { //mit intersection Ratio kann man noch bestimmen, wiviel prozent sichtbar sein müssten, damit animation ausgelöst wird
+                        entry.target.classList.add('blur');
+                    }
+                } else {
+                    entry.target.classList.remove('blur');
+                }
+            });
+        }
+    </script>
+</body>
+​
+
+</html>
