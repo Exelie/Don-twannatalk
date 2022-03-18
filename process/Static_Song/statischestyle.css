@@ -1,0 +1,235 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    padding-top: 5%;
+    border: 0ch;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+
+/*div {
+    min-height: 100vh;
+}*/
+
+main.body {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+}
+
+p.d {
+    font-family: Nothing You Could Do;
+    font-weight: bold;
+    font-size: 30vh;
+    color: #69ffff;
+    position: relative;
+    width: 28vh;
+    transform: rotate(-10deg);
+    z-index: 1
+}
+
+p.ont {
+    position: relative;
+    font-family: Nothing You Could Do;
+    font-size: 15vh;
+    font-weight: bold;
+    font-stretch: expanded;
+    color: #69ffff;
+    position: relative;
+    padding-top: 3%;
+    transform: rotate(-10deg);
+    right: 0%;
+}
+
+p.wanna1 {
+    font-family: Acme;
+    color: #e7eb0d;
+    font-size: 10vh;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    z-index: -2;
+}
+
+p.talk {
+    font-family: Acme;
+    font-size: 10vh;
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 7.5%;
+    z-index: -2;
+}
+
+p.baby {
+    font-family: Acme;
+    font-weight: bolder;
+    position: relative;
+    color: #ff01f2;
+    font-size: 51.17vh;
+    text-shadow: 0 0 0.5em rgb(253, 131, 233), 0 0 0.4em rgb(255, 205, 247);
+}
+
+p.I {
+    font-family: Acme;
+    font-size: 277.46vh;
+    color: #e7eb0d;
+}
+
+p.just {
+    font-family: Acme;
+    font-size: 15vh;
+    color: white;
+    z-index: -3;
+    position: relative;
+    right: 1.5vh;
+    padding-bottom: 3vh;
+}
+
+P.wanna2 {
+    font-family: Nothing You Could Do;
+    font-size: 7vh;
+    font-weight: bolder;
+    color: #ff01f2;
+    position: relative;
+    margin: 0%;
+    right: 10%;
+    z-index: -3;
+}
+
+h1.dance {
+    font-family: Acme;
+    font-weight: bolder;
+    font-size: 36vw;
+    color: #69ffff;
+    overflow: hidden;
+    text-shadow: 0 0 0.5em rgb(147, 232, 253), 0 0 0.4em rgb(189, 238, 250);
+}
+
+p.am {
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    font-family: Acme;
+    color: #e7eb0d;
+    font-size: 30vh;
+}
+
+p.and {
+    font-size: 500vh;
+    color: white;
+    font-family: Acme;
+    position: relative;
+    right: 50vh;
+    width: 100%;
+}
+
+p.gonna {
+    font-family: Nothing You Could Do;
+    font-weight: 900;
+    color: #69ffff;
+    font-size: 7vh;
+}
+
+.circal {
+    position: relative;
+    width: 160vh;
+    height: 160vh;
+    border-radius: 100vh;
+    background: #ff01f2;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 400vh;
+}
+
+.outter {
+    position: relative;
+    width: 159vh;
+    height: 159vh;
+    border-radius: 100vh;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0.5vh;
+}
+
+p.stop {
+    position: relative;
+    font-family: Nothing You Could Do;
+    color: #ff01f2;
+    text-align: center;
+    top: 30%;
+    font-size: 50vh;
+}
+
+div.words1 {
+    display: flex;
+    margin-left: 20Vh;
+    height: 20.47vh;
+    width: 50%;
+    margin-bottom: 80vh;
+}
+
+div.words2 {
+    display: flex;
+    position: absolute;
+    margin-left: 40Vh;
+    height: 20.47vh;
+    width: 50%;
+    bottom: 70vh;
+    z-index: -1;
+}
+
+div.I {
+    position: absolute;
+    margin-left: 50Vh;
+    height: 20.47vh;
+    width: 50%;
+    z-index: -2;
+    top: -0.05%
+}
+
+div.words3 {
+    display: flex;
+    margin-left: 110Vh;
+    height: 20.47vh;
+    width: 10%;
+    flex-direction: column;
+}
+
+div.words4 {
+    position: relative;
+    right: 10vh;
+    bottom: 25vh;
+    width: 200%;
+    z-index: -4;
+}
+
+div.words5 {
+    position: relative;
+    left: 63vh;
+    bottom: 25vh;
+    width: 50%;
+}
+
+div.words6 {
+    position: relative;
+    padding: 0%;
+    bottom: 270vh;
+    right: 40vh;
+    z-index: -1;
+    margin: 0%;
+}
+
+div.words7 {
+    position: relative;
+    left: 115vh;
+    bottom: 450vh;
+    width: 50%;
+    padding: 0%;
+}
