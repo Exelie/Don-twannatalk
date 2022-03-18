@@ -8,6 +8,26 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: Metropolis;
+    src: url(Metropolis1920-Regular.otf);
+}
+
+@font-face {
+    font-family: Neonderthaw;
+    src: url(Neonderthaw-Regular.ttf);
+}
+
+@font-face {
+    font-family: NeonDisco;
+    src: url(NeonDisco.ttf);
+}
+
+@font-face {
+    font-family: Neon;
+    src: url(Neon.ttf);
+}
+
 p {
     margin: 0;
 }
