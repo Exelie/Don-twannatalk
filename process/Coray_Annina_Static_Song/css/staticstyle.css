@@ -13,6 +13,7 @@ p {
     padding: 0%;
 }
 
+
 /* {
     min-height: 1vh;
     min-width: 1vh;
@@ -24,68 +25,68 @@ main.body {
     flex: 2;
     padding: 0px;
 }
-.line_1{
+
+.line_1 {
     width: 70%;
     height: 2vh;
     background-color: #00FFE0;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4vh;
+    margin-bottom: 3%;
     box-shadow: 1vw 1vh #00FFE06e;
 }
 
-div.box_1{
-    display: flex; 
+div.box_1 {
+    display: flex;
     flex-direction: row;
     width: 75vw;
     height: 55vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3%;
 }
 
-div.box_dont{
-    width:  28vw;
+div.box_dont {
+    width: 28vw;
     height: 10vh;
-
     display: flex;
     flex-direction: row;
-    margin-right: 5vw;
+    margin-right: 8%;
 }
 
-p.d{
+p.d {
     position: relative;
-    left: .1vw;
+    left: 1%;
     font-size: 17vw;
     font-family: Nothing You Could Do;
     color: #00ffe100;
     transform: rotate(-10deg);
-    margin-right: .2vh;
+    margin-right: .1%;
     -webkit-text-stroke-width: .25vh;
     -webkit-text-stroke-color: #00FFE0;
 }
 
-p.ont{
+p.ont {
     position: relative;
     font-size: 10vw;
     font-family: Nothing You Could Do;
     color: #00ffe100;
     transform: rotate(-10deg);
-    left: .1vw;
-    top: 1vh;  
+    right: 0.1%;
+    top: 1vh;
     -webkit-text-stroke-width: .25vh;
     -webkit-text-stroke-color: #00FFE0;
 }
 
-div.box_wanna{
+div.box_wanna {
     width: 59%;
     margin-left: auto;
     position: relative;
     bottom: 5%;
-    
 }
 
-.wanna_talk{
+.wanna_talk {
     display: flex;
     flex-direction: column;
     font-size: 5vw;
@@ -97,19 +98,18 @@ div.box_wanna{
     -webkit-text-stroke-color: #00FFE0;
 }
 
-.line_2{
+.line_2 {
     width: 95%;
     height: 2vh;
     background-color: #00FFE0;
     border-radius: 25px;
-
     margin-right: auto;
     margin-bottom: 1vh;
     box-shadow: 1vw 1vh #00FFE06e;
     margin-bottom: 3vh;
 }
 
-.box_2{
+.box_2 {
     width: 80vw;
     height: 5vh;
     margin-left: auto;
@@ -121,35 +121,43 @@ div.box_wanna{
     margin-bottom: 10vh;
 }
 
-.baby{
+.baby {
     font-size: 32vw;
     font-family: Neon;
     font-weight: 500;
     color: #FF00F5;
     text-align: center;
 }
-.box_3{
-    width: 90vw;
+
+.babyblurry {
+    font-family: Neon;
+    color: transparent;
+    text-shadow: 5vh 1vw #ff00f736;
+    position: absolute;
+    transform: translatey(-101%) translatex(8.5%);
+}
+
+.box_3 {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
 }
 
-.line_3{
+.line_3 {
     border-radius: 0 10vh 10vh 0;
     background-color: #00FFE0;
     width: 20%;
     height: 2vh;
-    box-shadow: .2vw .6vh .5vh .2vw   #00FFE06e;
-    
+    box-shadow: .2vw .6vh .5vh .2vw #00FFE06e;
 }
 
-.contaner{
+.contaner {
     width: 10%;
 }
 
-.i_just{
+.i_just {
     position: relative;
     color: #00ffe100;
     text-align: right;
@@ -164,19 +172,15 @@ div.box_wanna{
     flex-grow: 10;
 }
 
-.line_4{
+.line_4 {
     border-radius: 10vh 0 0 10vh;
     background-color: #00FFE0;
     width: 80%;
     height: 2vh;
-    box-shadow: .2vw 1.5vh .5vh -.2vw   #00FFE06e;
-    
+    box-shadow: .2vw 1.5vh .5vh -.2vw #00FFE06e;
 }
 
-
-
-
-.box_4{
+.box_4 {
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -185,21 +189,21 @@ div.box_wanna{
     margin-bottom: 5vh;
 }
 
-.line_box{
+.line_box {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.line_5{
-    border-radius: 0 10vh 10vh 0; 
+.line_5 {
+    border-radius: 0 10vh 10vh 0;
     background-color: #00FFE0;
-    height: 2vh; 
-    box-shadow: .3vw .6vh .5vh .3vw #00FFE06e; 
+    height: 2vh;
+    box-shadow: .3vw .6vh .5vh .3vw #00FFE06e;
     margin-bottom: 3vh;
 }
 
-.wanna_dance_box{
+.wanna_dance_box {
     position: relative;
     width: 50%;
     margin-left: auto;
@@ -210,31 +214,33 @@ div.box_wanna{
     top: 3vw;
     right: 10vh;
 }
-.dance_text{
-    font-size: 3vw;
+
+.dance_text {
+    font-size: 4.7vh;
     font-family: Neon;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color:#FF00F5;
+    color: #FF00F5;
     transform: scale(1, -1);
-    
+    bottom: 4vh;
+    position: relative;
 }
-.wanna_text{
+
+.wanna_text {
     font-size: 10vw;
     font-family: Neon;
     -webkit-text-stroke-width: .25vh;
     -webkit-text-stroke-color: #FF00F5;
 }
 
-
-.dance_colem{
+.dance_colem {
     transform: rotate(-45);
     display: flex;
     flex-direction: row;
     position: relative;
 }
 
-.box_5{
+.box_5 {
     height: 145vh;
     width: 90vw;
     margin-left: auto;
@@ -242,7 +248,8 @@ div.box_wanna{
     display: flex;
     flex-direction: row;
 }
-.and_{
+
+.and_ {
     color: #00ffe100;
     font-size: 4vw;
     font-family: Nothing You Could Do;
@@ -250,25 +257,26 @@ div.box_wanna{
     -webkit-text-stroke-width: .1vh;
     -webkit-text-stroke-color: #00FFE0;
 }
-.circle{
-    border-radius: 1000vw; 
+
+.circle {
+    border-radius: 1000vw;
     position: absolute;
     background-color: #000000;
     width: 50vw;
     height: 100vh;
     right: 25vw;
     transform: translateY(25vh);
-    
 }
-.inner_circle{
-    border: 1vw solid #00FFE0; 
-    border-radius:50%; 
+
+.inner_circle {
+    border: 1vw solid #00FFE0;
+    border-radius: 50%;
     position: absolute;
     z-index: -1;
 }
 
-.stop{
-    color:#FF00F5;
+.stop {
+    color: #FF00F5;
     font-size: 20vw;
     font-family: Neon;
     top: 30vh;
