@@ -14,11 +14,6 @@ body {
 }
 
 @font-face {
-    font-family: Neonderthaw;
-    src: url(Neonderthaw-Regular.ttf);
-}
-
-@font-face {
     font-family: NeonDisco;
     src: url(NeonDisco.ttf);
 }
