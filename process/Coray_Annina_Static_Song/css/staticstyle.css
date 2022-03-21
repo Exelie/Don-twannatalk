@@ -241,6 +241,15 @@
         right: 93.4%;
     }
     
+    .danceblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        top: 102%;
+        left: 2%;
+    }
+    
     .wanna_text {
         font-size: 10vw;
         font-family: Neon;
