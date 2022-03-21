@@ -296,8 +296,8 @@
     
     .box_5 {
         height: 145px;
-        width: 100%;
-        margin-left: auto;
+        width: 110%;
+        margin-left: -5%;
         margin-right: auto;
         display: flex;
         flex-direction: row;
