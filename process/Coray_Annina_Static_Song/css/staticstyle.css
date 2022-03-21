@@ -223,6 +223,15 @@
         position: relative;
     }
     
+    .dblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        top: 102%;
+        right: 93.5%;
+    }
+    
     .wanna_text {
         font-size: 10vw;
         font-family: Neon;
