@@ -28,7 +28,7 @@ main.body {
 
 .line_1 {
     width: 70%;
-    height: 2vh;
+    height: 16px;
     background-color: #00FFE0;
     border-radius: 25px;
     margin-left: auto;
@@ -40,16 +40,16 @@ main.body {
 div.box_1 {
     display: flex;
     flex-direction: row;
-    width: 75vw;
-    height: 55vh;
+    width: 76%;
+    height: 415px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3%;
 }
 
 div.box_dont {
-    width: 28vw;
-    height: 10vh;
+    width: 36%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     margin-right: 8%;
@@ -74,7 +74,7 @@ p.ont {
     color: #00ffe100;
     transform: rotate(-10deg);
     right: 0.1%;
-    top: 1vh;
+    top: 0.4%;
     -webkit-text-stroke-width: .25vh;
     -webkit-text-stroke-color: #00FFE0;
 }
@@ -100,25 +100,24 @@ div.box_wanna {
 
 .line_2 {
     width: 95%;
-    height: 2vh;
+    height: 16px;
     background-color: #00FFE0;
     border-radius: 25px;
     margin-right: auto;
-    margin-bottom: 1vh;
     box-shadow: 1vw 1vh #00FFE06e;
-    margin-bottom: 3vh;
+    margin-bottom: 4%;
 }
 
 .box_2 {
-    width: 80vw;
-    height: 5vh;
+    width: 82%;
+    height: 0%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     bottom: 23.5vw;
     z-index: -1;
     left: 4vh;
-    margin-bottom: 10vh;
+    margin-bottom: -25%;
 }
 
 .baby {
@@ -146,14 +145,14 @@ div.box_wanna {
 }
 
 .line_3 {
-    border-radius: 0 10vh 10vh 0;
+    border-radius: 0 10px 10px 0;
     background-color: #00FFE0;
     width: 20%;
-    height: 2vh;
+    height: 16px;
     box-shadow: .2vw .6vh .5vh .2vw #00FFE06e;
 }
 
-.contaner {
+.i_just_box {
     width: 10%;
 }
 
@@ -166,27 +165,27 @@ div.box_wanna {
     -webkit-text-stroke: #00FFE0;
     -webkit-text-stroke-width: .01vh;
     -webkit-text-stroke-color: #00FFE0;
-    bottom: 1vh;
-    margin-right: 2vw;
-    margin-left: 1vw;
+    bottom: 25%;
+    margin-right: 24%;
+    margin-left: .5%;
     flex-grow: 10;
 }
 
 .line_4 {
-    border-radius: 10vh 0 0 10vh;
+    border-radius: 10px 0 0 10px;
     background-color: #00FFE0;
     width: 80%;
-    height: 2vh;
+    height: 16px;
     box-shadow: .2vw 1.5vh .5vh -.2vw #00FFE06e;
 }
 
 .box_4 {
-    width: 90vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5%;
 }
 
 .line_box {
@@ -198,9 +197,9 @@ div.box_wanna {
 .line_5 {
     border-radius: 0 10vh 10vh 0;
     background-color: #00FFE0;
-    height: 2vh;
+    height: 16px;
     box-shadow: .3vw .6vh .5vh .3vw #00FFE06e;
-    margin-bottom: 3vh;
+    margin-bottom: 3%;
 }
 
 .wanna_dance_box {
@@ -211,8 +210,8 @@ div.box_wanna {
     display: flex;
     flex-direction: column;
     transform: rotate(15deg);
-    top: 3vw;
-    right: 10vh;
+    padding-top: 5%;
+    right: 0.5%;
 }
 
 .dance_text {
