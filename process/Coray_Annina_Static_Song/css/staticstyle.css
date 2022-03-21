@@ -257,6 +257,36 @@
         -webkit-text-stroke-color: #FF00F5;
     }
     
+    .wblurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
+    .wanblurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
+    .wannablurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
     .dance_colem {
         transform: rotate(-45);
         display: flex;
