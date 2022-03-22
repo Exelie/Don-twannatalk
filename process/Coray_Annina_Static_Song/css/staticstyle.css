@@ -135,21 +135,6 @@
         transform: translatey(-101%) translatex(8.5%);
     }
     
-    .babyglow {
-        -webkit-animation: glow 1s ease-in-out infinite alternate;
-        -moz-animation: glow 1s ease-in-out infinite alternate;
-        animation: glow 1s ease-in-out infinite alternate;
-    }
-    
-    @keyframes glow {
-        from {
-            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF00F5, 0 0 40px #FF00F5, 0 0 50px #FF00F5, 0 0 60px #FF00F5, 0 0 70px #FF00F5;
-        }
-        to {
-            text-shadow: 0 0 20px #fff, 0 0 30px #ff00f736, 0 0 40px #ff00f736, 0 0 50px #ff00f736, 0 0 60px #ff00f736, 0 0 70px #ff00f736, 0 0 80px #ff00f736;
-        }
-    }
-    
     .box_3 {
         width: 100%;
         margin-left: auto;
@@ -310,22 +295,6 @@
         left: 1%
     }
     
-    .wannaflip {
-        animation-name: spin, depth;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 6s;
-    }
-    
-    @keyframes spin {
-        0% {
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform: rotateY(-360deg);
-        }
-    }
-    
     .dance_colem {
         transform: rotate(-45);
         display: flex;
@@ -394,92 +363,4 @@
         position: absolute;
         transform: translatey(-5%) translatex(-4%);
         z-index: -2;
-    }
-    /*animations */
-    
-    .line_5:hover {
-        animation: piano_color .5s alternate forwards;
-    }
-    
-    @keyframes piano_color_off {
-        0% {
-            background-color: #C724B1;
-            box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
-        }
-        100% {
-            background-color: #00ffe1;
-            box-shadow: .3vw .6vh .5vh .3vw #00ffe16b;
-        }
-    }
-    
-    @keyframes piano_color {
-        100% {
-            background-color: #C724B1;
-            box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
-        }
-    }
-    
-    div.glich {
-        animation: glitch 1s linear infinite;
-    }
-    
-    @keyframes glitch {
-        2%,
-        64% {
-            transform: translate(2px, 0) skew(0deg);
-        }
-        4%,
-        60% {
-            transform: translate(-2px, 0) skew(0deg);
-        }
-        62% {
-            transform: translate(0, 0) skew(5deg);
-        }
-    }
-    
-    div.before,
-    div.after {
-        content: attr(title);
-        position: absolute;
-        left: 0;
-    }
-    
-    div.before {
-        animation: glitchTop 1s linear infinite;
-        clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    }
-    
-    @keyframes glitchTop {
-        2%,
-        64% {
-            transform: translate(2px, -2px);
-        }
-        4%,
-        60% {
-            transform: translate(-2px, 2px);
-        }
-        62% {
-            transform: translate(13px, -1px) skew(-13deg);
-        }
-    }
-    
-    div.after {
-        animation: glitchBotom 1.5s linear infinite;
-        clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-        -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    }
-    
-    @keyframes glitchBotom {
-        2%,
-        64% {
-            transform: translate(-2px, 0);
-        }
-        4%,
-        60% {
-            transform: translate(-2px, 0);
-        }
-        62% {
-            transform: translate(-22px, 5px) skew(21deg);
-        }
     }
