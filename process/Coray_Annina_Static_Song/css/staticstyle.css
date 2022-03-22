@@ -7,24 +7,23 @@
         border: 0ch;
         overflow-x: hidden;
     }
-
+    
     p {
         margin: 0;
         padding: 0%;
     }
-
     /* {
     min-height: 1vh;
     min-width: 1vh;
 }*/
-
+    
     main.body {
         display: flex;
         flex-direction: column;
         flex: 2;
         padding: 0px;
     }
-
+    
     .line_1 {
         width: 70%;
         height: 1.7vh;
@@ -35,15 +34,16 @@
         margin-bottom: 3%;
         box-shadow: 1vw 1vh #00FFE06e;
     }
-
+    
     div.box_1 {
         display: flex;
         flex-direction: row;
         width: 76%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1%;
     }
-
+    
     div.box_dont {
         width: 36%;
         height: 10%;
@@ -51,7 +51,7 @@
         flex-direction: row;
         margin-right: 8%;
     }
-
+    
     p.d {
         position: relative;
         left: 1%;
@@ -63,7 +63,7 @@
         -webkit-text-stroke-width: .25vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-
+    
     p.ont {
         position: relative;
         font-size: 10vw;
@@ -75,14 +75,14 @@
         -webkit-text-stroke-width: .25vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-
+    
     div.box_wanna {
         width: 59%;
         margin-left: auto;
         position: relative;
         bottom: 5%;
     }
-
+    
     .wanna_talk {
         display: flex;
         flex-direction: column;
@@ -94,7 +94,7 @@
         -webkit-text-stroke-width: .1vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-
+    
     .line_2 {
         width: 95%;
         height: 1.7vh;
@@ -104,7 +104,7 @@
         box-shadow: 1vw 1vh #00FFE06e;
         margin-bottom: 4%;
     }
-
+    
     .box_2 {
         width: 82%;
         height: 0%;
@@ -116,7 +116,7 @@
         left: 2%;
         margin-bottom: -20%;
     }
-
+    
     .baby {
         position: relative;
         font-size: 32vw;
@@ -125,7 +125,7 @@
         color: #FF00F5;
         text-align: center;
     }
-
+    
     .babyblurry {
         font-family: Neon;
         color: transparent;
@@ -133,7 +133,7 @@
         position: absolute;
         transform: translatey(-101%) translatex(8.5%);
     }
-
+    
     .box_3 {
         width: 100%;
         margin-left: auto;
@@ -141,7 +141,7 @@
         display: flex;
         flex-direction: row;
     }
-
+    
     .line_3 {
         border-radius: 0 10px 10px 0;
         background-color: #00FFE0;
@@ -149,12 +149,11 @@
         height: 1.7vh;
         box-shadow: .2vw .6vh .5vh .2vw #00FFE06e;
     }
-
+    
     .i_just_box {
         width: 10%;
-
     }
-
+    
     .i_just {
         position: relative;
         color: #00ffe100;
@@ -168,16 +167,15 @@
         margin-right: 24%;
         margin-left: .5%;
     }
-
     /*this tell the shados box that it's pearent is the i_just_box*/
+    
     .i_just_box>.i_just_shadow {
         position: absolute;
         width: inherit;
         height: inherit;
-        transform: translatey(-15%);
-
+        transform: translateX(-5%) translateY(-24%);
     }
-
+    
     .line_4 {
         border-radius: 10px 0 0 10px;
         background-color: #00FFE0;
@@ -185,7 +183,7 @@
         height: 1.7vh;
         box-shadow: .2vw 1.5vh .5vh -.2vw #00FFE06e;
     }
-
+    
     .box_4 {
         width: 100%;
         margin-left: auto;
@@ -194,13 +192,13 @@
         flex-direction: row;
         margin-bottom: 2.5%;
     }
-
+    
     .line_box {
         display: flex;
         flex-direction: column;
         width: 50%;
     }
-
+    
     .line_5 {
         border-radius: 0 10vh 10vh 0;
         background-color: #00FFE0;
@@ -209,7 +207,7 @@
         margin-bottom: 3%;
         animation: piano_color_off .5s alternate forwards;
     }
-
+    
     .wanna_dance_box {
         position: relative;
         width: 50%;
@@ -221,7 +219,7 @@
         padding-top: 5%;
         right: 0.5%;
     }
-
+    
     .dance_text {
         font-size: 4.7vh;
         font-family: Neon;
@@ -232,7 +230,7 @@
         bottom: 20%;
         position: relative;
     }
-
+    
     .dblurry {
         font-family: Neon;
         color: transparent;
@@ -241,7 +239,7 @@
         top: 102%;
         right: 93.4%;
     }
-
+    
     .danblurry {
         font-family: Neon;
         color: transparent;
@@ -250,7 +248,7 @@
         top: 102%;
         right: 93.4%;
     }
-
+    
     .danceblurry {
         font-family: Neon;
         color: transparent;
@@ -259,14 +257,14 @@
         top: 102%;
         left: 2%;
     }
-
+    
     .wanna_text {
         font-size: 10vw;
         font-family: Neon;
         -webkit-text-stroke-width: .25vh;
         -webkit-text-stroke-color: #FF00F5;
     }
-
+    
     .wblurry {
         font-family: Neon;
         font-size: 10vw;
@@ -276,7 +274,7 @@
         bottom: 9.5%;
         left: 1%
     }
-
+    
     .wanblurry {
         font-family: Neon;
         font-size: 10vw;
@@ -286,7 +284,7 @@
         bottom: 9.5%;
         left: 1%
     }
-
+    
     .wannablurry {
         font-family: Neon;
         font-size: 10vw;
@@ -296,14 +294,14 @@
         bottom: 9.5%;
         left: 1%
     }
-
+    
     .dance_colem {
         transform: rotate(-45);
         display: flex;
         flex-direction: row;
         position: relative;
     }
-
+    
     .box_5 {
         height: 145px;
         width: 110%;
@@ -312,7 +310,7 @@
         display: flex;
         flex-direction: row;
     }
-
+    
     .and_ {
         color: #00ffe100;
         font-size: 4vw;
@@ -322,7 +320,7 @@
         -webkit-text-stroke-width: .1vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-
+    
     .circle {
         border-radius: 1000vw;
         position: absolute;
@@ -332,7 +330,7 @@
         right: 25vw;
         transform: translateY(25vh);
     }
-
+    
     .inner_circle {
         border: 1vw solid #00FFE0;
         border-radius: 50%;
@@ -340,15 +338,15 @@
         z-index: -1;
         box-shadow: 0vw .5vh 10px 16px #00ffe16b;
     }
-
-    .inner_circle_sadow {
+    
+    .inner_circle_shadow {
         border: 1vw solid #00FFE0;
         border-radius: 50%;
         position: absolute;
         z-index: -1;
         opacity: .25;
     }
-
+    
     .stop {
         color: #FF00F5;
         font-size: 20vw;
@@ -357,7 +355,7 @@
         left: 10%;
         position: relative;
     }
-
+    
     .stopblurry {
         font-family: Neon;
         color: transparent;
@@ -366,28 +364,26 @@
         transform: translatey(-5%) translatex(-4%);
         z-index: -2;
     }
-
     /*animations */
+    
     .line_5:hover {
         animation: piano_color .5s alternate forwards;
     }
+    
     @keyframes piano_color_off {
         0% {
             background-color: #C724B1;
             box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
-            
         }
-        100%{
+        100% {
             background-color: #00ffe1;
             box-shadow: .3vw .6vh .5vh .3vw #00ffe16b;
         }
-
     }
-
+    
     @keyframes piano_color {
         100% {
             background-color: #C724B1;
             box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
         }
-
     }
