@@ -134,6 +134,21 @@
         transform: translatey(-101%) translatex(8.5%);
     }
     
+    .babyglow {
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF00F5, 0 0 40px #FF00F5, 0 0 50px #FF00F5, 0 0 60px #FF00F5, 0 0 70px #FF00F5;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff00f736, 0 0 40px #ff00f736, 0 0 50px #ff00f736, 0 0 60px #ff00f736, 0 0 70px #ff00f736, 0 0 80px #ff00f736;
+        }
+    }
+    
     .box_3 {
         width: 100%;
         margin-left: auto;
