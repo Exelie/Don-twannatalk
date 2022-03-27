@@ -368,7 +368,7 @@
         position: absolute;
         z-index: -1;
         box-shadow: 0vw .5vh 10px 16px #00ffe16b;
-        animation: rainbow_circle 3S infinite forwards ;
+        animation: rainbow_circle 3S infinite forwards;
     }
     
     .inner_circle_shadow {
@@ -377,7 +377,7 @@
         position: absolute;
         z-index: -1;
         opacity: .25;
-        animation: shadow_circle_rain 3S infinite forwards ;
+        animation: shadow_circle_rain 3S infinite forwards;
     }
     
     .stop {
@@ -420,72 +420,58 @@
             box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
         }
     }
-
-
+    
     @keyframes rainbow_circle {
         0% {
             border: 1vw solid #00FFE0;
             box-shadow: 0vw .5vh 10px 16px #00ffe16b;
         }
-        
-        15%{
+        15% {
             border: 1vw solid #00ff15;
             box-shadow: 0vw .5vh 10px 16px #00ff156b;
         }
-
-        30%{
+        30% {
             border: 1vw solid #d9ff00;
             box-shadow: 0vw .5vh 10px 16px #d9ff006b;
         }
-
-        45%{
+        45% {
             border: 1vw solid #ff0000;
             box-shadow: 0vw .5vh 10px 16px #ff00006b;
         }
-
-        60%{
+        60% {
             border: 1vw solid #ff00ea;
             box-shadow: 0vw .5vh 10px 16px #ff00ea6b;
         }
-
-        75%{
+        75% {
             border: 1vw solid #2600ff;
             box-shadow: 0vw .5vh 10px 16px #2600ff6b;
         }
-
         100% {
             border: 1vw solid #00FFE0;
             box-shadow: 0vw .5vh 10px 16px #00ffe16b;
         }
     }
-
+    
     @keyframes shadow_circle_rain {
         0% {
             border: 1vw solid #00FFE0;
         }
-        
-        15%{
+        15% {
             border: 1vw solid #00ff15;
         }
-
-        30%{
+        30% {
             border: 1vw solid #d9ff00;
         }
-
-        45%{
+        45% {
             border: 1vw solid #ff0000;
         }
-
-        60%{
-            border: 1vw solid #ff00ea;
+        60% {
+            border: 1vw solid #ae00ff;
         }
-
-        75%{
+        75% {
             border: 1vw solid #2600ff;
         }
-
         100% {
             border: 1vw solid #00FFE0;
         }
-        
     }
