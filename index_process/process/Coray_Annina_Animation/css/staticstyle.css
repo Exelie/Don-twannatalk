@@ -36,7 +36,7 @@
         box-shadow: 1vw 1vh #00FFE06e;
     }
     
-    .box_1 {
+    div.box_1 {
         display: flex;
         flex-direction: row;
         width: 76%;
@@ -45,7 +45,7 @@
         margin-bottom: 1.5%;
     }
     
-    .box_dont {
+    div.box_dont {
         width: 36%;
         height: 10%;
         display: flex;
@@ -53,7 +53,7 @@
         margin-right: 8%;
     }
     
-    .d {
+    p.d {
         position: relative;
         left: 1%;
         font-size: 17vw;
@@ -65,7 +65,7 @@
         -webkit-text-stroke-color: #00FFE0;
     }
     
-    .ont {
+    p.ont {
         position: relative;
         font-size: 10vw;
         font-family: Nothing You Could Do;
@@ -368,6 +368,7 @@
         position: absolute;
         z-index: -1;
         box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        animation: rainbow_circle 3S infinite forwards ;
     }
     
     .inner_circle_shadow {
@@ -376,6 +377,7 @@
         position: absolute;
         z-index: -1;
         opacity: .25;
+        animation: shadow_circle_rain 3S infinite forwards ;
     }
     
     .stop {
@@ -417,4 +419,73 @@
             background-color: #C724B1;
             box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
         }
+    }
+
+
+    @keyframes rainbow_circle {
+        0% {
+            border: 1vw solid #00FFE0;
+            box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        }
+        
+        15%{
+            border: 1vw solid #00ff15;
+            box-shadow: 0vw .5vh 10px 16px #00ff156b;
+        }
+
+        30%{
+            border: 1vw solid #d9ff00;
+            box-shadow: 0vw .5vh 10px 16px #d9ff006b;
+        }
+
+        45%{
+            border: 1vw solid #ff0000;
+            box-shadow: 0vw .5vh 10px 16px #ff00006b;
+        }
+
+        60%{
+            border: 1vw solid #ff00ea;
+            box-shadow: 0vw .5vh 10px 16px #ff00ea6b;
+        }
+
+        75%{
+            border: 1vw solid #2600ff;
+            box-shadow: 0vw .5vh 10px 16px #2600ff6b;
+        }
+
+        100% {
+            border: 1vw solid #00FFE0;
+            box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        }
+    }
+
+    @keyframes shadow_circle_rain {
+        0% {
+            border: 1vw solid #00FFE0;
+        }
+        
+        15%{
+            border: 1vw solid #00ff15;
+        }
+
+        30%{
+            border: 1vw solid #d9ff00;
+        }
+
+        45%{
+            border: 1vw solid #ff0000;
+        }
+
+        60%{
+            border: 1vw solid #ff00ea;
+        }
+
+        75%{
+            border: 1vw solid #2600ff;
+        }
+
+        100% {
+            border: 1vw solid #00FFE0;
+        }
+        
     }
