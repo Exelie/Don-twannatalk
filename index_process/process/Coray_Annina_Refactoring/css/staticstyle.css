@@ -1,0 +1,477 @@
+    body {
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        padding-top: 5%;
+        border: 0ch;
+        overflow-x: hidden;
+        animation-delay: 2s;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0%;
+    }
+    /* {
+    min-height: 1vh;
+    min-width: 1vh;
+}*/
+    
+    main.body {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        padding: 0px;
+    }
+    
+    .line_1 {
+        width: 70%;
+        height: 1.7vh;
+        background-color: #00FFE0;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        box-shadow: 1vw 1vh #00FFE06e;
+    }
+    
+    div.box_1 {
+        display: flex;
+        flex-direction: row;
+        width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5%;
+    }
+    
+    div.box_dont {
+        width: 36%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        margin-right: 8%;
+    }
+    
+    p.d {
+        position: relative;
+        left: 1%;
+        font-size: 17vw;
+        font-family: Nothing You Could Do;
+        color: #00ffe100;
+        transform: rotate(-10deg);
+        margin-right: .1%;
+        -webkit-text-stroke-width: .25vh;
+        -webkit-text-stroke-color: #00FFE0;
+    }
+    
+    p.ont {
+        position: relative;
+        font-size: 10vw;
+        font-family: Nothing You Could Do;
+        color: #00ffe100;
+        transform: rotate(-10deg);
+        right: 0.1%;
+        top: 0.4%;
+        -webkit-text-stroke-width: .25vh;
+        -webkit-text-stroke-color: #00FFE0;
+    }
+    
+    div.box_wanna {
+        width: 59%;
+        margin-left: auto;
+        position: relative;
+        bottom: 5%;
+    }
+    
+    .wanna_talk {
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        font-family: Nothing You Could Do;
+        font-weight: 500;
+        color: #69ffff00;
+        -webkit-text-stroke: #00FFE0;
+        -webkit-text-stroke-width: .1vh;
+        -webkit-text-stroke-color: #00FFE0;
+    }
+    
+    .line_2 {
+        width: 95%;
+        height: 1.7vh;
+        background-color: #00FFE0;
+        border-radius: 25px;
+        margin-right: auto;
+        box-shadow: 1vw 1vh #00FFE06e;
+        margin-bottom: 4%;
+    }
+    
+    .box_2 {
+        width: 82%;
+        height: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        transform: translateY(-54%);
+        z-index: -1;
+        left: 2%;
+        margin-bottom: -20%;
+    }
+    
+    .baby {
+        position: relative;
+        font-size: 32vw;
+        font-family: Neon;
+        font-weight: 500;
+        color: #FF00F5;
+        text-align: center;
+    }
+    
+    .babyblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 3vw 1vh #ff00f736;
+        position: absolute;
+        transform: translatey(-101%) translatex(8.5%);
+    }
+    
+    .babyglow {
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF00F5, 0 0 40px #FF00F5, 0 0 50px #FF00F5, 0 0 60px #FF00F5, 0 0 70px #FF00F5;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff00f736, 0 0 40px #ff00f736, 0 0 50px #ff00f736, 0 0 60px #ff00f736, 0 0 70px #ff00f736, 0 0 80px #ff00f736;
+        }
+    }
+    
+    .box_3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .line_3 {
+        border-radius: 0 10px 10px 0;
+        background-color: #00FFE0;
+        width: 20%;
+        height: 1.7vh;
+        box-shadow: .2vw .6vh .5vh .2vw #00FFE06e;
+    }
+    
+    .i_just_box {
+        width: 10%;
+    }
+    
+    .i_just {
+        position: relative;
+        color: #00ffe100;
+        text-align: right;
+        font-family: Nothing You Could Do;
+        font-size: 2vw;
+        -webkit-text-stroke: #00FFE0;
+        -webkit-text-stroke-width: .01vh;
+        -webkit-text-stroke-color: #00FFE0;
+        bottom: 25%;
+        margin-right: 24%;
+        margin-left: .5%;
+    }
+    
+    .i_just_box>.i_just_shadow {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        transform: translateX(-5%) translateY(-24%);
+    }
+    
+    .line_4 {
+        border-radius: 10px 0 0 10px;
+        background-color: #00FFE0;
+        width: 80%;
+        height: 1.7vh;
+        box-shadow: .2vw 1.5vh .5vh -.2vw #00FFE06e;
+    }
+    
+    .box_4 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2.5%;
+    }
+    
+    .line_box {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .line_5 {
+        border-radius: 0 10vh 10vh 0;
+        background-color: #00FFE0;
+        height: 1.7vh;
+        box-shadow: .3vw .6vh .5vh .3vw #00FFE06e;
+        margin-bottom: 3%;
+        animation: piano_color_off .5s alternate forwards;
+    }
+    
+    .wanna_dance_box {
+        position: relative;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        transform: rotate(15deg);
+        padding-top: 5%;
+        right: 0.5%;
+    }
+    
+    .dance_text {
+        font-size: 4.7vh;
+        font-family: Neon;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: #FF00F5;
+        transform: scale(-1, -1);
+        bottom: 20%;
+        position: relative;
+    }
+    
+    .dblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        top: 102%;
+        right: 93.4%;
+    }
+    
+    .danblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        top: 102%;
+        right: 93.4%;
+    }
+    
+    .danceblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        top: 102%;
+        left: 2%;
+    }
+    
+    .wanna_text {
+        font-size: 10vw;
+        font-family: Neon;
+        -webkit-text-stroke-width: .25vh;
+        -webkit-text-stroke-color: #FF00F5;
+    }
+    
+    .wblurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
+    .wanblurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
+    .wannablurry {
+        font-family: Neon;
+        font-size: 10vw;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        bottom: 9.5%;
+        left: 1%
+    }
+    
+    .wannaflip {
+        animation-name: spin, depth;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform: rotateY(-360deg);
+        }
+    }
+    
+    .dance_colem {
+        transform: rotate(-45);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    .box_5 {
+        height: 145px;
+        width: 110%;
+        margin-left: -5%;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .and_ {
+        color: #00ffe100;
+        font-size: 4vw;
+        font-family: Nothing You Could Do;
+        text-align: center;
+        letter-spacing: -2px;
+        -webkit-text-stroke-width: .1vh;
+        -webkit-text-stroke-color: #00FFE0;
+    }
+    
+    .circle {
+        border-radius: 1000vw;
+        position: absolute;
+        background-color: #000000;
+        width: 50vw;
+        height: 100vh;
+        right: 25vw;
+        transform: translateY(25vh);
+    }
+    
+    .inner_circle {
+        border: 1vw solid #00FFE0;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        animation: rainbow_circle 3S infinite forwards;
+    }
+    
+    .inner_circle_shadow {
+        border: 1vw solid #00FFE0;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        opacity: .25;
+        animation: shadow_circle_rain 3S infinite forwards;
+    }
+    
+    .stop {
+        color: #FF00F5;
+        font-size: 20vw;
+        font-family: Neon;
+        top: 30%;
+        left: 10%;
+        position: relative;
+    }
+    
+    .stopblurry {
+        font-family: Neon;
+        color: transparent;
+        text-shadow: 5vh 1vw #ff00f736;
+        position: absolute;
+        transform: translatey(-5%) translatex(-4%);
+        z-index: -2;
+    }
+    /*animations */
+    
+    .line_5:hover {
+        animation: piano_color .5s alternate forwards;
+    }
+    
+    @keyframes piano_color_off {
+        0% {
+            background-color: #C724B1;
+            box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
+        }
+        100% {
+            background-color: #00ffe1;
+            box-shadow: .3vw .6vh .5vh .3vw #00ffe16b;
+        }
+    }
+    
+    @keyframes piano_color {
+        100% {
+            background-color: #C724B1;
+            box-shadow: .3vw .6vh .5vh .3vw #C724B16e;
+        }
+    }
+    
+    @keyframes rainbow_circle {
+        0% {
+            border: 1vw solid #00FFE0;
+            box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        }
+        15% {
+            border: 1vw solid #00ff15;
+            box-shadow: 0vw .5vh 10px 16px #00ff156b;
+        }
+        30% {
+            border: 1vw solid #d9ff00;
+            box-shadow: 0vw .5vh 10px 16px #d9ff006b;
+        }
+        45% {
+            border: 1vw solid #ff0000;
+            box-shadow: 0vw .5vh 10px 16px #ff00006b;
+        }
+        60% {
+            border: 1vw solid #ae00ff;
+            box-shadow: 0vw .5vh 10px 16px #8a037e6b;
+        }
+        75% {
+            border: 1vw solid #2600ff;
+            box-shadow: 0vw .5vh 10px 16px #2600ff6b;
+        }
+        100% {
+            border: 1vw solid #00FFE0;
+            box-shadow: 0vw .5vh 10px 16px #00ffe16b;
+        }
+    }
+    
+    @keyframes shadow_circle_rain {
+        0% {
+            border: 1vw solid #00FFE0;
+        }
+        15% {
+            border: 1vw solid #00ff15;
+        }
+        30% {
+            border: 1vw solid #d9ff00;
+        }
+        45% {
+            border: 1vw solid #ff0000;
+        }
+        60% {
+            border: 1vw solid #ae00ff;
+        }
+        75% {
+            border: 1vw solid #2600ff;
+        }
+        100% {
+            border: 1vw solid #00FFE0;
+        }
+    }
