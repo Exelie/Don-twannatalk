@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    background-color: black;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10%;
+    color: #4CAF50;
+    font-size: 3vw;
+}
+
+div{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div >a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    flex: 1 0 33%;
+    font-size: 2vw;
+    position: relative;
+}
+
+div >a >button{
+    background-color: #4CAF50;
+    width: 95%;
+    position: relative;
+    font-size: 1.5vw;
+    border-radius: 1000px;
+    height: 10vh;
+    box-shadow: .3vw .6vh .5vh .3vw #4CAF50;
+    cursor: pointer;
+    margin-bottom: 20%;
+    animation: hover_animation_off 500ms forwards;
+
+}
+
+button:hover{
+    animation: hover_animation 1s forwards;
+}
+
+@keyframes hover_animation {
+   100%{
+        font-size: 1.6vw;
+        transform: scale(1.1);
+        right: 1%;
+   }
+   0%{
+        right: 0%;
+   }
+}
+
+@keyframes hover_animation_off {
+    100%{
+        font-size: 1.5vw;
+        height: 10vh;
+        transform: scale(1);
+        right: 0%;
+    }
+
+    0%{
+        width: 95%;
+        font-size: 1.6vw;
+        transform: scale(1.1);
+        right: 1%;
+    }
+}
