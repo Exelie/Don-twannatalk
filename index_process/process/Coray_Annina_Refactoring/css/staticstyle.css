@@ -36,6 +36,13 @@
         box-shadow: 1vw 1vh #00FFE06e;
     }
     
+    @media screen and (max-width: 768px) {
+        .line_1 {
+            height: 1vh;
+            box-shadow: .5vw .5vh #00FFE06e;
+        }
+    }
+    
     div.box_1 {
         display: flex;
         flex-direction: row;
@@ -106,6 +113,13 @@
         margin-bottom: 4%;
     }
     
+    @media screen and (max-width: 768px) {
+        .line_2 {
+            height: 1vh;
+            box-shadow: .5vw .5vh #00FFE06e;
+        }
+    }
+    
     .box_2 {
         width: 82%;
         height: 0%;
@@ -163,7 +177,14 @@
         background-color: #00FFE0;
         width: 20%;
         height: 1.7vh;
-        box-shadow: .2vw .6vh .5vh .2vw #00FFE06e;
+        box-shadow: .3vw .6vh .5vh .3vw #00FFE06e;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .line_3 {
+            height: 1vh;
+            box-shadow: .1vw .3vh .2vh .1vw #00FFE06e;
+        }
     }
     
     .i_just_box {
@@ -196,7 +217,14 @@
         background-color: #00FFE0;
         width: 80%;
         height: 1.7vh;
-        box-shadow: .2vw 1.5vh .5vh -.2vw #00FFE06e;
+        box-shadow: .3vw .6vh .5vh -.3vw #00FFE06e;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .line_4 {
+            height: 1vh;
+            box-shadow: .1vw .3vh .2vh -.1vw #00FFE06e;
+        }
     }
     
     .box_4 {
@@ -223,6 +251,13 @@
         animation: piano_color_off .5s alternate forwards;
     }
     
+    @media screen and (max-width: 768px) {
+        .line_5 {
+            height: 1vh;
+            box-shadow: .1vw .3vh .2vh .1vw #00FFE06e;
+        }
+    }
+    
     .wanna_dance_box {
         position: relative;
         width: 50%;
@@ -233,6 +268,12 @@
         transform: rotate(15deg);
         padding-top: 5%;
         right: 0.5%;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .wanna_dance_box {
+            display: none;
+        }
     }
     
     .dance_text {
