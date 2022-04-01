@@ -403,6 +403,18 @@
         transform: translateY(25vh);
     }
     
+    @media screen and (max-width: 768px) {
+        .circle {
+            border-radius: 1000vw;
+            position: absolute;
+            background-color: #000000;
+            width: 100vw;
+            height: 100vh;
+            right: 25vw;
+            transform: translateY(1vh);
+        }
+    }
+    
     .inner_circle {
         border: 1vw solid #00FFE0;
         border-radius: 50%;
