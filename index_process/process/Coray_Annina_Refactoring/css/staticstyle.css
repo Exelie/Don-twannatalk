@@ -13,10 +13,6 @@
         margin: 0;
         padding: 0%;
     }
-    /* {
-    min-height: 1vh;
-    min-width: 1vh;
-}*/
     
     main.body {
         display: flex;
@@ -101,6 +97,12 @@
         -webkit-text-stroke: #00FFE0;
         -webkit-text-stroke-width: .1vh;
         -webkit-text-stroke-color: #00FFE0;
+    }
+    
+    .wannatalkstyle {
+        position: absolute;
+        transform: translatex(1%);
+        opacity: 0.25;
     }
     
     .line_2 {
