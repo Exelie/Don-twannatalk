@@ -20,6 +20,14 @@
         flex: 2;
         padding: 0px;
     }
+    .image{
+        width: 11vw;
+        height: 7vw;
+        position: absolute;
+        left: 5%;
+        top: 12%;
+        z-index: 100;
+    }
     
     .line_1 {
         width: 70%;
@@ -67,9 +75,9 @@
         -webkit-text-stroke-width: .25vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-    
-    .d_main {
-        position: absolute;
+
+    .d_main{
+        position: absolute; 
         transform: translatex(86%) rotate(-10deg);
         opacity: 0.25;
     }
@@ -85,11 +93,11 @@
         -webkit-text-stroke-width: .25vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-    
-    .ont_main {
-        position: absolute;
-        transform: translatex(-358%) translateY(65%) rotate(-10deg);
-        opacity: 0.25;
+
+    .ont_main{
+        position: absolute; 
+        transform: translatex(-358%) translateY(65%) rotate(-10deg); 
+        opacity: 0.25;  
     }
     
     .box_wanna {
@@ -436,10 +444,9 @@
         display: flex;
         flex-direction: row;
     }
-    
-    .box_5_inner {
-        position: absolute;
-        transform: translatex(5%);
+    .box_5_inner{
+        position: absolute; 
+        transform: translatex(5%); 
     }
     
     .and_ {
@@ -451,8 +458,8 @@
         -webkit-text-stroke-width: .1vh;
         -webkit-text-stroke-color: #00FFE0;
     }
-    
-    .and_shadow {
+
+    .and_shadow{
         opacity: .25;
     }
     
@@ -483,65 +490,64 @@
         animation: rainbow_circle 3S infinite forwards;
     }
     
-    .inner_circle_1 {
-        width: 97%;
+    .inner_circle_1 { 
+        width: 97%; 
         height: 97vh;
-        right: 0vw;
+        right: 0vw; 
         bottom: .5%;
     }
-    
-    .inner_circle_2 {
-        width: 79%;
+        
+    .inner_circle_2 { 
+        width: 79%; 
         height: 79vh;
-        right: 9%;
+        right: 9%; 
         top: 10%;
     }
     
     .inner_circle_3 {
-        width: 60%;
+        width: 60%; 
         height: 60vh;
-        right: 18%;
+        right: 18%; 
         top: 20%;
     }
-    
+        
     .inner_circle_4 {
-        width: 40%;
+        width: 40%; 
         height: 40vh;
-        right: 28%;
+        right: 28%; 
         top: 30%;
     }
-    
+        
     .inner_circle_5 {
-        width: 24%;
+        width: 24%; 
         height: 24vh;
-        right: 36%;
+        right: 36%; 
         top: 37%;
     }
-    
     @media screen and (max-width: 768px) {
-        .inner_circle_1 {
+        .inner_circle_1 { 
             height: 47.5vh;
             top: 0.5%
         }
+        
         .inner_circle_2 {
-            width: 79%;
-            height: 37.92vh;
+            width: 79%; 
+            height: 37.92vh; 
             top: 11%;
         }
         .inner_circle_3 {
-            width: 60%;
+            width: 60%; 
             height: 28.8vh;
         }
         .inner_circle_4 {
-            width: 40%;
-            height: 19.2vh;
+            width: 40%; 
+            height:  19.2vh;
         }
         .inner_circle_5 {
-            width: 24%;
+            width: 24%; 
             height: 11.52vh;
         }
     }
-    
     .inner_circle_shadow_style {
         border: 1vw solid #00FFE0;
         border-radius: 50%;
@@ -550,62 +556,58 @@
         opacity: .25;
         animation: shadow_circle_rain 3S infinite forwards;
     }
-    
-    .circle_shadow_1 {
-        width: 97%;
+
+    .circle_shadow_1{
+        width: 97%; 
         height: 97vh;
-        left: .20%;
+        left: .20%; 
         bottom: .3%;
     }
-    
     .circle_shadow_2 {
-        width: 79%;
+        width: 79%; 
         height: 79vh;
-        right: 8%;
+        right: 8%; 
         top: 11%;
     }
-    
     .circle_shadow_3 {
-        width: 60%;
+        width: 60%; 
         height: 60vh;
-        right: 17%;
+        right: 17%; 
         top: 21%;
     }
-    
     .circle_shadow_4 {
-        width: 40%;
+        width: 40%; 
         height: 40vh;
-        right: 27%;
+        right: 27%; 
         top: 31%;
     }
-    
     .circle_shadow_5 {
-        width: 24%;
+        width: 24%; 
         height: 24vh;
-        right: 35%;
+        right: 35%; 
         top: 38%;
     }
-    
     @media screen and (max-width: 768px) {
-        .circle_shadow_1 {
+        .circle_shadow_1 { 
             height: 47.5vh;
             top: 0.5%
         }
+        
         .circle_shadow_2 {
-            width: 79%;
-            height: 37.92vh;
+            width: 79%; 
+            height: 37.92vh; 
             top: 11%;
         }
         .circle_shadow_3 {
-            width: 60%;
+            width: 60%; 
             height: 28.8vh;
         }
         .circle_shadow_4 {
-            width: 40%;
-            height: 19.2vh;
+            width: 40%; 
+            height:  19.2vh;
         }
         .circle_shadow_5 {
-            width: 24%;
+            width: 24%; 
             height: 11.52vh;
         }
     }
@@ -618,7 +620,6 @@
         left: 10%;
         position: relative;
     }
-    
     @media screen and (max-width: 768px) {
         .stop {
             top: 30%;
@@ -634,8 +635,7 @@
         transform: translatey(-5%) translatex(-4%);
         z-index: -2;
     }
-    
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px){
         .stopblurry {
             transform: translatey(-2%) translatex(-12%);
             z-index: -2;
